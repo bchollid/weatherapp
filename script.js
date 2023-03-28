@@ -1,7 +1,6 @@
 "use strict"
 
-let apiKey = "bd82cc3a874fadcdce9737014092d5c4"
-let giphyApiKey = "pgsQLA8GteBTgyPuSTeg2bM13LQIMk5u"
+//API Keys not shown here due to security.
 
 let cityInput = document.getElementById("city-input");
 let stateInput = document.getElementById("state-input");
