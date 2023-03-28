@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: #222222;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid #DEFFF2;
+    background: transparent;
+    width: 50vw;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #DEFFF2;
+    text-align: center;
+    opacity: 0.5;
+}
+
+input:hover{
+    opacity: 1;
+}
+
+input:focus{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #DEFFF2;
+}
+
+#form{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    text-align: center;
+}
+
+#city-input-label{
+    color: #DEFFF2;
+    opacity: .5; 
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+select {
+    color: grey;
+    margin-top: 5vh;
+    border-radius: 5px;
+    width: 50.5vw;
+    height: 5vh; 
+    font-family: sans-serif;
+    color: grey;
+    background-color:#DEFFF2;
+    opacity: .5; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+li{
+    cursor: pointer;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #DEFFF2;
+    margin-top: 5vh;
+}
+
+#submit, #save-location-button{
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5vh;
+    width: 15vw;
+    height: 5vh;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+    background-color: #DEFFF2;
+    opacity: 0.5;
+    color: #222222;
+}
+
+#submit:hover, select:hover, #save-location-button:hover{
+cursor: pointer;
+opacity: 1; 
+}
+
+#save-location-button{
+    margin-top: 5px;
+}
+
+#save-location{
+    display: none;
+    flex-basis: 100%;
+}
+
+#subtext{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    color: #DEFFF2;
+    margin-top: 0.5vh;
+    opacity: 0.5;
+}
+
+#saved-locations{
+    background-color: #DEFFF2;
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+#image{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap; 
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: #DEFFF2;
+    text-shadow: 2px 2px black;
+}
+
+#weather-image, #temp-image{
+    width: 35vw;
+    height: 25vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#location-name{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #DEFFF2;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#location-name-holder{
+    display: flex;
+    flex-basis: 100%;
+}
+
+#list-favorite{
+    list-style: none;
+}
+
+li {
+    font-size: .75rem;
+    margin-top: 1vh;
+}
